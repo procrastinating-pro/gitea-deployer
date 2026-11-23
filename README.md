@@ -20,7 +20,7 @@ Lekki, wieloużytkownikowy serwer Git w kontenerach **Docker** (`Gitea` + `Postg
 Możesz uruchomić konfigurator bezpośrednio z repozytorium za pomocą `curl` i *process substitution* (podmień adres URL na ścieżkę do swojego surowego pliku `setup_gitea.sh`):
 
 ```bash
-bash <(curl -fsSL [https://raw.githubusercontent.com/procrastinating-pro/gitea-deployer/refs/heads/main/setup_gitea.sh])
+bash <(curl -fsSL https://raw.githubusercontent.com/procrastinating-pro/gitea-deployer/refs/heads/main/setup_gitea.sh)
 ```
 
 *(Uwaga: nie używaj składni `curl ... | bash`, ponieważ skrypt zadaje pytania interaktywne — konstrukcja `bash <(curl ...)` pozwala poprawnie przekazać wejście z klawiatury).*
